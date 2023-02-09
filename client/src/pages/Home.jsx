@@ -25,7 +25,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/v1/post",
+        "https://ai-image-tl3k.onrender.com/api/v1/post",
         {
           method: "GET",
           headers: {
